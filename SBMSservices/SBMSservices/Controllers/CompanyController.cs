@@ -17,6 +17,9 @@ namespace SBMSservices.Controllers
     [RoutePrefix("company")]
     public class CompanyController : ApiController
     {
+        /// <summary>
+        /// 
+        /// </summary>
         AdminBL _AdminBL;
         public CompanyController()
         {

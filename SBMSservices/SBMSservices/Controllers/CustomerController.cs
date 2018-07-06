@@ -12,8 +12,11 @@ using System.Data;
 
 namespace SBMSservices.Controllers
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [RoutePrefix("Customer")]
-    public class CustomerController : ApiController
+    public class CustomerController : ApiController   
     {
         CustomerBAL bal;
         public CustomerController()
